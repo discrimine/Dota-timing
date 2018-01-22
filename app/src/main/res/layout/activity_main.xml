@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dota_background"
+    tools:context="com.example.discrimine.dotatiming.MainActivity"
+    tools:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/imageButtonBack"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_ico_back_svg" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonStop"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/ic_ico_stop_svg"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="1dp" />
+
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="40dp">
+
+                    <ImageButton
+                        android:id="@+id/imgButRosh"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/ic_roshan_svg"
+                        android:contentDescription="TODO"
+                        android:cropToPadding="false"
+                        android:elevation="0dp"
+                        tools:layout_editor_absoluteX="37dp"
+                        tools:layout_editor_absoluteY="38dp" />
+
+                    <TextView
+                        android:id="@+id/textViewRosh"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/colorRed"
+                        android:textSize="48dp"
+                        tools:layout_editor_absoluteX="69dp"
+                        tools:layout_editor_absoluteY="99dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="40dp">
+
+                    <ImageButton
+                        android:id="@+id/imgButMid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ic_mid_svg"
+                        android:contentDescription="TODO"
+                        tools:layout_editor_absoluteX="37dp"
+                        tools:layout_editor_absoluteY="267dp" />
+
+                    <TextView
+                        android:id="@+id/textViewMid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/colorRed"
+                        android:textSize="48dp"
+                        tools:layout_editor_absoluteX="251dp"
+                        tools:layout_editor_absoluteY="331dp" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="40dp">
+
+                    <ImageButton
+                        android:id="@+id/imgButGlyph"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ic_glyph_svg"
+                        android:contentDescription="TODO"
+                        tools:layout_editor_absoluteX="204dp"
+                        tools:layout_editor_absoluteY="38dp" />
+
+                    <TextView
+                        android:id="@+id/textViewGlyph"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/colorRed"
+                        android:textSize="48dp"
+                        tools:layout_editor_absoluteX="239dp"
+                        tools:layout_editor_absoluteY="99dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="40dp">
+
+                    <ImageButton
+                        android:id="@+id/imgButCarry"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ic_carry_svg"
+                        tools:layout_editor_absoluteX="204dp"
+                        tools:layout_editor_absoluteY="267dp" />
+
+
+                    <TextView
+                        android:id="@+id/textViewCarry"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/colorRed"
+                        android:textSize="48dp"
+                        tools:layout_editor_absoluteX="69dp"
+                        tools:layout_editor_absoluteY="331dp" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="137dp">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8974634454536111/7069146904" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

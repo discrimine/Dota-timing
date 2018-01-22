@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dota_background"
+    tools:context="com.example.discrimine.dotatiming.IndexActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="55dp"
+            android:paddingHorizontal="10dp"
+            android:layout_weight="1.3">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                app:srcCompat="@drawable/ic_logo_pic"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="71dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="70dp"
+            android:paddingVertical="20dp"
+            android:layout_weight="2"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButtonStart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ic_start_svg"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="272dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="70dp"
+            android:paddingVertical="20dp"
+            android:layout_weight="2"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButtonSettings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ic_settings_svg"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="386dp" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
