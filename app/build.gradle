@@ -4,11 +4,11 @@ android {
 
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.discrimine.dotatiming"
-        minSdkVersion 14
+        applicationId "com.timings.discrimine.dotatiming"
+        minSdkVersion 21
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         generatedDensities = []

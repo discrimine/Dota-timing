@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.discrimine.dotatiming">
+    package="com.timings.discrimine.dotatiming">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -16,7 +16,7 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version"/>
-        <activity android:name=".IndexActivity"
+        <activity android:name="com.timings.discrimine.dotatiming.IndexActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
 
@@ -26,10 +26,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+        <activity android:name="com.timings.discrimine.dotatiming.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
-        <activity android:name=".SettingsAppActivity"
+        <activity android:name="com.timings.discrimine.dotatiming.SettingsAppActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
 <activity android:name="com.google.android.gms.ads.AdActivity"

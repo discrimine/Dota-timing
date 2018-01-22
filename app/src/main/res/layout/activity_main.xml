@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/dota_background"
-    tools:context="com.example.discrimine.dotatiming.MainActivity"
+    tools:context="com.timings.discrimine.dotatiming.MainActivity"
     tools:ignore="NamespaceTypo">
 
     <LinearLayout
